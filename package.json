@@ -1,6 +1,7 @@
 {
-    "name": "lab-react-weathermood",
+    "name": "react-forecast",
     "version": "1.0.0",
+    "homepage": "https://shawn2000100.github.io/react-forecast",
     "description": "WeatherMood allows people to share moods under different weather conditions.",
     "main": "src/index.jsx",
     "scripts": {
@@ -8,8 +9,8 @@
         "watch": "webpack -w",
         "start": "webpack-dev-server",
         "test": "echo \"Error: no test specified\" && exit 1",
-	"predeploy": "npm run build",
-  	"deploy": "gh-pages -d build"
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
     },
     "keywords": [],
     "author": "",
